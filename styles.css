@@ -83,3 +83,10 @@ z-index: 1000;
     height: 50px; 
     font-size: x-large;
 }
+
+.footer-div{
+    background-color: #eeeeee; 
+    position: absolute; 
+    bottom: 0%; 
+    width: 100%;
+}
