@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .center-text {
     display: flex;
     justify-content: center;
@@ -20,9 +25,8 @@
 }
 
 .main-container { 
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px; /* Add some padding for better appearance */
+    padding: 0 15px;
 }
 
 .card-click {
@@ -73,4 +77,9 @@ z-index: 1000;
 .fullscreen-img video {
     max-width: 85%;
     max-height: 85%;
+}
+
+.footer{
+    height: 50px; 
+    font-size: x-large;
 }

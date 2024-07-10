@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Sinal Breiche | Portfolio | Simulations</title><link rel="stylesheet" href=
-    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Sinal Breiche | Portfolio | Simulations</title>
 </head>
-<body style="background-color: rgb(30, 30, 30); height: 100%;">
-        <h1 class="text-center"  style="background-color: #eeeeee; color: rgb(30, 30, 30); font-weight: normal;">Simulations - Phoenix FD/Tyflow</h1>
+
+<body>
+    <h1 class="text-center"  style="background-color: #eeeeee; color: rgb(30, 30, 30); font-weight: normal; padding-bottom: 10px;">Simulations - Phoenix FD/Tyflow</h1>
     <h3 class="text-center" style="color: #eeeeee;">PLAY VIDEOS</h2>
+
     <div style="margin-top: 15px;"></div>
 
     <div class="container">
@@ -37,17 +39,13 @@
     <div style="margin-bottom: 20px;"></div>
 
     <div style="background-color: #eeeeee;">
-        <h1 class="center-text" style="height: 50px; font-size: x-large; margin-bottom: -20px;">sinal_breish@outlook.com</h1>
-        <h1 class="center-text" style="height: 50px; font-size: x-large;">+961 76 310 720</h1>
+        <h1 class="center-text footer" style="margin-bottom: -20px;">sinal_breish@outlook.com</h1>
+        <h1 class="center-text footer">+961 76 310 720</h1>
     </div>
 
     <!-- Bootstrap JavaScript -->
-    <script src=
-"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
-      </script>
-    <script src=
-"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js">
-      </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
     <script>
       // Show caption on hover 
@@ -65,34 +63,30 @@
             });
         });
 
- // Show video in fullscreen
- document.querySelectorAll('.gallery-item video').forEach(video => {
+        // Show video in fullscreen
+        document.querySelectorAll('.gallery-item video').forEach(video => {
         video.addEventListener('click', () => {
-            // Create fullscreen div
-            const fullscreenDiv = document.createElement('div');
-            fullscreenDiv.classList.add('fullscreen-img');
+        // Create fullscreen div
+        const fullscreenDiv = document.createElement('div');
+        fullscreenDiv.classList.add('fullscreen-img');
 
-            // Create new video element
-            const fullscreenVideo = document.createElement('video');
-            fullscreenVideo.src = video.src;
-            fullscreenVideo.alt = video.alt;
-            fullscreenVideo.controls = true;
-            fullscreenVideo.autoplay = true;
+        // Create new video element
+        const fullscreenVideo = document.createElement('video');
+        fullscreenVideo.src = video.src;
+        fullscreenVideo.alt = video.alt;
+        fullscreenVideo.controls = true;
+        fullscreenVideo.autoplay = true;
 
-            // Append video to fullscreen div
-            fullscreenDiv.appendChild(fullscreenVideo);
-            document.body.appendChild(fullscreenDiv);
+        // Append video to fullscreen div
+        fullscreenDiv.appendChild(fullscreenVideo);
+        document.body.appendChild(fullscreenDiv);
 
-            // Remove fullscreen div on click
-            fullscreenDiv.addEventListener('click', () => {
-                document.body.removeChild(fullscreenDiv);
+        // Remove fullscreen div on click
+        fullscreenDiv.addEventListener('click', () => {
+            document.body.removeChild(fullscreenDiv);
             });
         });
     })
-
     </script>
-
-
-
 </body>
 </html>
