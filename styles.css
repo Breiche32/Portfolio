@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    
 }
 
 .center-text {
@@ -26,7 +27,7 @@ body{
 
 .main-container { 
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 .card-click {
