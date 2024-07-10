@@ -22,7 +22,7 @@ body{
 
 .card-img-container img {
     height: 100%;
-    width: fit-content;
+    width: auto;
 }
 
 .main-container { 
