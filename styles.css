@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
 }
 
 .navbar {
