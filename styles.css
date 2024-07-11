@@ -1,7 +1,13 @@
 body{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .center-text {
@@ -12,7 +18,7 @@ body{
     font-weight: 499;
 }
 
-  .card-img-container {
+.card-img-container {
     height: 200px;
     overflow: hidden;
     display: flex;
@@ -22,13 +28,12 @@ body{
 
 .card-img-container img {
     height: 100%;
-    width: min-content;
+    width: auto;
 }
 
 .main-container { 
     margin: 0 auto;
-    padding: 0 15px;
-    width: 100%;
+    padding: 10px;
 }
 
 .card-click {
