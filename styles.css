@@ -1,15 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     overflow-x: hidden;
-}
-
-.navbar {
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .center-text {
@@ -48,7 +41,7 @@ body{
     width: auto;
 }
 
-.main-container { 
+.main-container {
     margin: 0 auto;
     padding: 30px;
 }
